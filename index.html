@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Agência Pidrosa</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link href="css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <!-- Favicons -->
+
+
+
+  <!-- Link Carousel -->
+  <link href="css/carousel.css" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/estilo.css">
+</head>
+
+<body>
+
+  <!-- Navbar -->
+
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Agência Pidrosa</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+          aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="html/agencias.html">Agências</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="html/pacote.html">Pacotes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="html/contatos.html">Contatos</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Fim Navbar -->
+
+  <main>
+
+    <!-- Carousel -->
+
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true"
+          aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+
+        <div class="carousel-item active">
+          <img src="img/praia4.jpg" alt="Praia">
+
+          <div class="container">
+            <div class="carousel-caption text-start">
+              <h1>Lugares Paradisíacos</h1>
+              <p>Vistas incríveis e ambientes surpreendentes.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img src="img/praia1.jpg" alt="">
+
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>O Melhor Lugar</h1>
+              <p>Aqui você e sua família descansam com tranquilidade.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img src="img/praia3.jpg" alt="">
+
+          <div class="container">
+            <div class="carousel-caption text-end">
+              <h1>Diversão Garantida</h1>
+              <p>Diversos locais de entretenimento para crianças e adultos.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- Fim Carousel -->
+
+
+    <!-- Container -->
+
+    <hr class="divider">
+
+    <div class="row">
+      <div class="col-md-7">
+
+        <div id="text">
+          <h2 class="featurette-heading">Agência de Viagens, <span class="text-muted">Turismo e Guia de Hotéis e
+              Pousadas.</span>
+          </h2>
+          <p class="lead">Nossa Proposta é surpreender, já que este é o nosso pensamento. Ir além da simples venda,
+            compreendendo e satisfazendo as necessidades de cada cliente com qualidade.</p>
+        </div>
+
+      </div>
+
+      <div class="col-md-5">
+        <div id="img-responsive">
+          <img src="img/praiad.jfif" class="bd-placeholder-img bd-placeholder-img-lg img-fluid mx-auto" alt="">
+        </div>
+      </div>
+    </div>
+
+    <hr class="divider">
+
+    <!-- Fim Container -->
+
+    <!-- Pacotes -->
+
+    <div class="row">
+
+      <!-- PACOTE SIMPLES -->
+
+      <div class="col-md-4">
+        <div class="panel panel-simples">
+          <div class="panel-heading panel-heading-1 text-center">
+            Pacote Simple
+          </div>
+          <div class="panel-body text-center">
+            <h3>São Paulo</h3>
+            <h5>Hotel Merlinda</h5>
+            <h4>4 dias e 3 noites</h4>
+            <h2 class="valor">R$ 800,00</h2>
+            <span class="PorPessoa">Por pessoa</span><br><br>
+          </div>
+          <div class="panel-footer text-center">
+            <a href="html/pacote.html"><button class="btn btn-primary btn-xs">Ver Mais</button></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- PACOTE MASTER -->
+
+      <div class="col-md-4" id="especifico">
+        <div class="panel panel-master">
+          <div class="panel-heading panel-heading-2 text-center">
+            Pacote Master
+          </div>
+          <div class="panel-body text-center">
+            <h3>Rio de Janeiro</h3>
+            <h5>Hotel Copacabana</h5>
+            <h4>7 dias e 6 noites</h4>
+            <h2 class="valor">R$ 1200,00</h2>
+            <span class="PorPessoa">Por pessoa</span><br><br>
+          </div>
+          <div class="panel-footer text-center">
+            <a href="html/pacote.html"><button class="btn btn-success btn-xs">Ver Mais</button></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- PACOTE GOLD -->
+
+      <div class="col-md-4">
+        <div class="panel panel-gold">
+          <div class="panel-heading panel-heading-3 text-center">
+            Pacote Gold
+          </div>
+          <div class="panel-body text-center">
+            <h3>Espírito Santo</h3>
+            <h5>Hotel Laudyc</h5>
+            <h4>3 dias e 2 noites</h4>
+            <h2 class="valor">R$ 2200,00</h2>
+            <span class="PorPessoa">Por pessoa</span><br><br>
+          </div>
+          <div class="panel-footer text-center">
+            <a href="html/pacote.html"><button class="btn btn-danger btn-xs">Ver Mais</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Fim Pacotes -->
+
+    <hr class="divider">
+
+    <!-- Footer -->
+
+    <footer class="container">
+      <p class="float-end"><a href="#">Subir</a></p>
+      <p>&copy; 2017–2021 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+    </footer>
+
+    <!-- Fim Footer -->
+
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
